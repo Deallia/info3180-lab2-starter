@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div id="banner">
+        <img src= "{{url_for('static' , filename='img/tropical.JPG') }}" height="100px" width="100px"/>
+        <p>@DealliaDunbar 
+            Kingston, Jamaica 
+            Joined {{ date }}
+        </p>
+    </div>
+    <div id="info">
+        <p>I am a Computer Science major at the University of the West Indies with a keen interest in cybersecurity. I also enjoy doing website design and development.</p>
+        <div class="insights"> 
+            <div>
+                <p id="count">9 </p>
+                <p id="label"> Posts</p>
+            </div>
+            <div>
+                <p id="count">100 </p>
+                <p id="label"> Following</p>
+            </div>
+            <div>
+                <p id="count">250 </p>
+                <p id="label"> Followers</p>
+            </div>
+        </div>
+        <a href="#" class="btn">Follow</a>
+    </div>
+{% endblock %}
