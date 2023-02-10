@@ -1,3 +1,44 @@
 body {
     padding-top: 5rem;
+    font-family: 'Comic Neue', cursive;
+}
+#banner{
+    background-color: rgb(129, 174, 160);
+    color: white;
+    padding: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+#info{
+    padding: 5% 10%;
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+}
+.insights{
+    display: flex;
+    font-size: 20px;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+#count{
+    font-size: 22px;
+}
+
+.btn{
+    background-color: rgb(120, 227, 48);
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 150px;
+    padding: 8px 0px;
+}
+.btn:hover{
+    background-color: rgb(15, 103, 255);
+    color: white;
 }
